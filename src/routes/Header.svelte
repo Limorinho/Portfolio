@@ -19,7 +19,7 @@
 				<a href="/">Home</a>
 			</li>
 			<li aria-current={page.url.pathname === '/about' ? 'page' : undefined}>
-				<a href="/about">Projects</a>
+				<a href="/projects">Projects</a>
 			</li>
 			<li aria-current={page.url.pathname.startsWith('/sverdle') ? 'page' : undefined}>
 				<a href="/sverdle">Contact</a>
