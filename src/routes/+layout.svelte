@@ -18,7 +18,7 @@
 				<div class="col-span-full lg:col-span-2">
 				  <!-- logo - start -->
 				  <div class="mb-4 lg:-mt-2">
-					<a href="/" class="inline-flex items-center gap-2 text-xl font-bold text-black md:text-2xl" aria-label="logo">
+					<a href="/" class="inline-flex items-center gap-2 text-xl font-bold md:text-2xl" aria-label="logo">
 					  <svg width="95" height="94" viewBox="0 0 95 94" class="h-auto w-5 text-indigo-500" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
 						<path d="M96 0V47L48 94H0V47L48 0H96Z" />
 					  </svg>
@@ -28,8 +28,9 @@
 				  </div>
 				  <!-- logo - end -->
 		  
-				  <p class="mb-6 text-gray-500 sm:pr-8">Filler text is dummy text which has no meaning however looks very similar to real text.</p>
-		  
+				  <p class="mb-6 sm:pr-8">Portfolio powered by <a href="https://svelte.dev" target="_blank" class="text-emerald-600 hover:underline font-semibold">Svelte</p>
+				  <p class="mb-6 sm:pr-8">© 2025 Limorinho. All rights reserved.</p>
+					
 				  <!-- social - start -->
 				  <div class="flex gap-4">
 					<a href="#" target="_blank" class="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
@@ -61,7 +62,7 @@
 		  
 				<!-- nav - start -->
 				<div>
-				  <div class="mb-4 font-bold uppercase tracking-widest text-gray-800">Projects</div>
+				  <div class="mb-4 font-bold uppercase tracking-widest text-(--color-bg-0)">Projects</div>
 		  
 				  <nav class="flex flex-col gap-4">
 					<div>
@@ -73,7 +74,7 @@
 		  
 				<!-- nav - start -->
 				<div>
-				  <div class="mb-4 font-bold uppercase tracking-widest text-gray-800">About me</div>
+				  <div class="mb-4 font-bold uppercase tracking-widest text-(--color-bg-0)">About me</div>
 		  
 				  <nav class="flex flex-col gap-4">
 					<div>
@@ -89,7 +90,7 @@
 		  
 				<!-- nav - start -->
 				<div>
-				  <div class="mb-4 font-bold uppercase tracking-widest text-gray-800">Support</div>
+				  <div class="mb-4 font-bold uppercase tracking-widest text-(--color-bg-0)">Support</div>
 		  
 				  <nav class="flex flex-col gap-4">
 					<div>
@@ -102,7 +103,7 @@
 		  
 				<!-- nav - start -->
 				<div>
-				  <div class="mb-4 font-bold uppercase tracking-widest text-gray-800">Legal</div>
+				  <div class="mb-4 font-bold uppercase tracking-widest text-(--color-bg-0)">Legal</div>
 		  
 				  <nav class="flex flex-col gap-4">
 					<div>
