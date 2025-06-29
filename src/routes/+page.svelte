@@ -61,8 +61,8 @@
 			<div class="w-full max-w-xl mx-auto mt-5">
 				<div class="relative rounded-xl p-6 text-center transition-all duration-700 ease-in-out h-[380px]">
 				  <img src={items[current].logo} alt={items[current].title} class="h-16 mx-auto mb-4" />
-				  <h1 class="text-xl text-sky-600 font-bold mb-2">{items[current].title}</h1>
-				  <p class="text-sky-400 text-sm">{items[current].description}</p>
+				  <h1 class="text-xl text-(--color-theme-1) font-bold mb-2">{items[current].title}</h1>
+				  <p class="text-(--color-theme-1)  text-sm">{items[current].description}</p>
 				</div>
 			  
 				<!-- Optional nav buttons -->

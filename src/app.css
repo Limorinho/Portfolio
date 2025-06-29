@@ -22,17 +22,20 @@
 body {
 	min-height: 100vh;
 	margin: 0;
-	background-attachment: fixed;
 	background-color: var(--color-bg-1);
-	background-size: 100vw 100vh;
-	background: /* 1 */
+	background: 
 		var(--pattern, 
 			radial-gradient(closest-side, var(--color-bg-1), var(--color-bg-0)) 
-				0/ 1em 1em space), 
+			0/ 1em 1em space), 
 		var(--map, 
-			linear-gradient(180deg,  var(--color-bg-2),  var(--color-bg-0)));
-	background-blend-mode: multiply /* 2 */;
+			linear-gradient(180deg, var(--color-bg-2), var(--color-bg-0)));
+	background-size: 1em 1em, 100% 100vh;
+	background-repeat: repeat, no-repeat;
+	background-position: top left, top left;
+	background-attachment: scroll, fixed;
+	background-blend-mode: multiply;
 }
+
 
 h1,
 h2,
