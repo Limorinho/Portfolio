@@ -48,7 +48,7 @@
 <div class="text-column">
 	<h1>Projects</h1>
 
-	<div class="py-6 sm:py-8 lg:py-12">
+	<div class="py-6 sm:py-8 lg:py-16">
 		<div class="mx-auto">
 		  <!-- text - start -->
 		  <div class="mb-10 md:mb-16">
