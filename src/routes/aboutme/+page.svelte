@@ -4,15 +4,25 @@ import linor from '$lib/images/linor.png';
 
 </script>
 
-    <!-- person - start -->
+
+	<h1>About me</h1>
+
+    <div class="py-6 sm:py-8 lg:py-12">
+      <div class="mx-auto max-w-screen-xl px-4 md:px-8">
+        <div class="grid gap-8 md:grid-cols-3 lg:gap-12 ">
+        <div>
+          
+          <div class="w-full max-w-xl mx-auto mt-5">
+            
+                <!-- person - start -->
     <div class="flex flex-col items-center">
       <div class="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:mb-4 md:h-32 md:w-32">
-        <img src={linor} loading="lazy" alt="Photo by Radu Florin" class="h-full w-full object-cover object-center" />
+        <img src={linor} loading="lazy" alt="Photo of me" class="h-full w-full object-cover object-center" />
       </div>
 
       <div>
         <div class="text-center font-bold text-indigo-500 md:text-lg">Linor Ujkani</div>
-        <p class="mb-3 text-center text-sm text-gray-500 md:mb-4 md:text-base">CS graduate</p>
+        <p class="mb-3 text-center text-sm text-gray-500 md:mb-4 md:text-base">CS graduate • Software engineer</p>
 
         <!-- social - start -->
         <div class="flex justify-center">
@@ -33,3 +43,20 @@ import linor from '$lib/images/linor.png';
         <!-- social - end -->
       </div>
     </div>
+
+            </div>
+    
+        </div>
+      
+        <div class="md:pt-4 col-span-2">
+
+          <p class="mb-6 sm:text-lg md:mb-8">
+          I am a software developer with a bachelor's degree in Computer Science, currently pursuing a Master's in Artificial Intelligence.
+        </p>
+          <p class="mb-6 sm:text-lg md:mb-8">In my free time, I enjoy programming, reading, and watching YouTube. My interest in programming has led me to develop multiple projects, which I've showcased here!</p>
+          
+        </div>
+    
+        </div>
+        </div>
+      </div>
