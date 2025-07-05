@@ -5,7 +5,9 @@ import linor from '$lib/images/linor.png';
 </script>
 
 
-	<h1>About me</h1>
+	<h1>About me
+    
+  </h1>
 
     <div class="py-6 sm:py-8 lg:py-12">
       <div class="mx-auto max-w-screen-xl px-4 md:px-8">
@@ -22,7 +24,7 @@ import linor from '$lib/images/linor.png';
 
       <div>
         <div class="text-center font-bold text-indigo-500 md:text-lg">Linor Ujkani</div>
-        <p class="mb-3 text-center text-sm text-gray-500 md:mb-4 md:text-base">CS graduate • Software engineer</p>
+        <p class="mb-3 text-center text-sm md:mb-4 md:text-base">CS graduate • Software engineer</p>
 
         <!-- social - start -->
         <div class="flex justify-center">
@@ -42,6 +44,19 @@ import linor from '$lib/images/linor.png';
         </div>
         <!-- social - end -->
       </div>
+
+            <div class="p-3 text-center font-bold text-indigo-500 md:text-lg">Education</div>
+      <ul class="space-y-4">
+        <li>
+          <strong>Bachelor’s in Computer Science</strong><br>
+          [UiA, Grimstad], Graduated 2025
+        </li>
+        <li>
+          <strong>Master’s in Artificial Intelligence</strong><br>
+          [UiA, Grimstad], Expected 2027
+        </li>
+      </ul>
+
     </div>
 
             </div>
@@ -51,12 +66,35 @@ import linor from '$lib/images/linor.png';
         <div class="md:pt-4 col-span-2">
 
           <p class="mb-6 sm:text-lg md:mb-8">
-          I am a software developer with a bachelor's degree in Computer Science, currently pursuing a Master's in Artificial Intelligence.
-        </p>
-          <p class="mb-6 sm:text-lg md:mb-8">In my free time, I enjoy programming, reading, and watching YouTube. My interest in programming has led me to develop multiple projects, which I've showcased here!</p>
+            I’m a software developer with a bachelor’s degree in Computer Science, currently advancing my expertise through a Master’s in Artificial Intelligence.
+          </p>
+          <p class="mb-6 sm:text-lg md:mb-8">
+            In my spare time, I love building new projects, diving into thought-provoking books, and exploring ideas on YouTube. My passion for programming has inspired me to create a variety of personal projects — many of which you can explore here!
+          </p>
           
         </div>
     
         </div>
         </div>
       </div>
+      <h1>Experience</h1>
+
+      <ul class="space-y-4">
+        <li>
+          <strong>Student Assistant</strong><br>
+          UiA | Fall 2023 - spring 2024
+          <ul class="list-disc list-inside">
+            <li>Assisted the professors in courses: Operative Systems &lpar;IKT102&rpar; and Microcontrollers &lpar;IKT104&rpar; </li>
+            <li>Helped students in lab exercises and helped approve their assignments</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Freelance Developer</strong><br>
+          2021 - Present
+          <ul class="list-disc list-inside">
+            <li>Built responsive websites for small businesses with PHP and MySQL</li>
+            <li>Created non-profitable open source projects for other developers</li>
+          </ul>
+        </li>
+      </ul>
+      
