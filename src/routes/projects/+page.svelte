@@ -46,7 +46,7 @@
 </svelte:head>
 
 <div class="text-column">
-	<h1>Projects</h1>
+	<h1 class="text-indigo-500">Projects</h1>
 
 	<div class="py-6 sm:py-8 lg:py-16">
 		<div class="mx-auto">
