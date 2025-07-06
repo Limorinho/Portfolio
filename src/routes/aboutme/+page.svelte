@@ -1,11 +1,13 @@
 <script lang="ts">
 
 import linor from '$lib/images/linor.png';
+import UiA from '$lib/images/UiA.jpg';
+import github from '$lib/images/github.jpg';
 
 </script>
 
 
-	<h1>About me
+	<h1 class="text-indigo-500 font-bold">About me
     
   </h1>
 
@@ -17,7 +19,7 @@ import linor from '$lib/images/linor.png';
           <div class="w-full max-w-xl mx-auto mt-5">
             
                 <!-- person - start -->
-    <div class="flex flex-col items-center">
+    <div class="flex flex-col place-items-center">
       <div class="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:mb-4 md:h-32 md:w-32">
         <img src={linor} loading="lazy" alt="Photo of me" class="h-full w-full object-cover object-center" />
       </div>
@@ -71,30 +73,109 @@ import linor from '$lib/images/linor.png';
           <p class="mb-6 sm:text-lg md:mb-8">
             In my spare time, I love building new projects, diving into thought-provoking books, and exploring ideas on YouTube. My passion for programming has inspired me to create a variety of personal projects — many of which you can explore here!
           </p>
-          
+          <p class="mb-6 sm:text-lg md:mb-8">
+            Most of my projects center around web development, automation, and playful experiments with technology. I’ve built everything from movie blogs and restaurant sites to tournament systems and Discord bots. Whether it’s using .NET for data-driven apps, Python for scraping and automation, or Godot for retro-style games, I enjoy learning by doing and exploring different tools to bring ideas to life.
+          </p>
         </div>
     
         </div>
         </div>
       </div>
-      <h1>Experience</h1>
 
-      <ul class="space-y-4">
-        <li>
-          <strong>Student Assistant</strong><br>
-          UiA | Fall 2023 - spring 2024
-          <ul class="list-disc list-inside">
-            <li>Assisted the professors in courses: Operative Systems &lpar;IKT102&rpar; and Microcontrollers &lpar;IKT104&rpar; </li>
-            <li>Helped students in lab exercises and helped approve their assignments</li>
-          </ul>
+      <h1 class="pb-12 font-bold text-indigo-500">Experience</h1>
+<div class="place-items-center">
+      <ul class="space-y-8 px-8">
+        <li class="flex items-start gap-4">
+          <img src={UiA} alt="UiA Logo" class="w-12 h-12 rounded-lg object-cover">
+          <div>
+            <strong>Student Assistant</strong><br>
+            UiA | Fall 2023 - Spring 2024
+            <ul class="list-disc list-inside">
+              <li>Assisted professors in Operative Systems (IKT102) & Microcontrollers (IKT104)</li>
+              <li>Guided students in labs & reviewed assignments</li>
+            </ul>
+          </div>
         </li>
-        <li>
-          <strong>Freelance Developer</strong><br>
-          2021 - Present
-          <ul class="list-disc list-inside">
-            <li>Built responsive websites for small businesses with PHP and MySQL</li>
-            <li>Created non-profitable open source projects for other developers</li>
-          </ul>
+        <li class="flex items-start gap-4">
+          <img src={github} alt="Freelance Icon" class="w-12 h-12 rounded-lg object-cover">
+          <div>
+            <strong>Freelance Developer</strong><br>
+            2021 - Present
+            <ul class="list-disc list-inside">
+              <li>Built responsive websites for small businesses with PHP & MySQL</li>
+              <li>Created open-source projects for the developer community on Github</li>
+            </ul>
+          </div>
         </li>
       </ul>
+    </div>
+         
+      <h1 class="py-12 text-indigo-500">Technologies</h1>
+
+      <div class="grid grid-cols-4 sm:grid-cols-4 gap-12 text-center text-gray-300">
+        <div>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" class="h-12 mx-auto" alt="Python"/>
+          <p>Python</p>
+        </div>
+        <div>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg" class="h-12 mx-auto" alt="Svelte"/>
+          <p>Svelte</p>
+        </div>
+        <div>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="h-12 mx-auto" alt="JavaScript"/>
+          <p>JavaScript</p>
+        </div>
+        <div>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" class="h-12 mx-auto" alt="TypeScript"/>
+          <p>TypeScript</p>
+        </div>
+        <div>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="h-12 mx-auto" alt="HTML"/>
+          <p>HTML</p>
+        </div>
+        <div>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="h-12 mx-auto" alt="CSS"/>
+          <p>CSS</p>
+        </div>
+        <div>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" class="h-12 mx-auto" alt="PHP"/>
+          <p>PHP</p>
+        </div>
+        <div>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" class="h-12 mx-auto" alt="C"/>
+          <p>C</p>
+        </div>
+        <div>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" class="h-12 mx-auto" alt="C#"/>
+          <p>C#</p>
+        </div>
+        <div>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" class="h-12 mx-auto" alt="C++"/>
+          <p>C++</p>
+        </div>
+        <div>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/godot/godot-original.svg" class="h-12 mx-auto" alt="Godot"/>
+          <p>Godot</p>
+        </div>
+        <div>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" class="h-12 mx-auto" alt="Docker"/>
+          <p>Docker</p>
+        </div>
+        <div>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" class="h-12 mx-auto" alt="Git"/>
+          <p>Git</p>
+        </div>
+        <div>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" class="h-12 mx-auto" alt="Linux"/>
+          <p>Linux</p>
+        </div>
+        <div>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" class="h-12 mx-auto" alt="Unity"/>
+          <p>Unity</p>
+        </div>
+        <div>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" class="h-12 mx-auto" alt=".NET"/>
+          <p>.NET</p>
+        </div>
+      </div>
       

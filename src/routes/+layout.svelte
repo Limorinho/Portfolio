@@ -62,7 +62,7 @@
 		  
 				<!-- nav - start -->
 				<div>
-				  <div class="mb-4 font-bold uppercase tracking-widest text-(--color-bg-0)">Projects</div>
+				  <div class="mb-4 font-bold uppercase tracking-widest text-indigo-500">Projects</div>
 		  
 				  <nav class="flex flex-col gap-4">
 					<div>
@@ -74,7 +74,7 @@
 		  
 				<!-- nav - start -->
 				<div>
-				  <div class="mb-4 font-bold uppercase tracking-widest text-(--color-bg-0)">About me</div>
+				  <div class="mb-4 font-bold uppercase tracking-widest text-indigo-500">About me</div>
 		  
 				  <nav class="flex flex-col gap-4">
 					<div>
@@ -90,7 +90,7 @@
 		  
 				<!-- nav - start -->
 				<div>
-				  <div class="mb-4 font-bold uppercase tracking-widest text-(--color-bg-0)">Support</div>
+				  <div class="mb-4 font-bold uppercase tracking-widest text-indigo-500">Support</div>
 		  
 				  <nav class="flex flex-col gap-4">
 					<div>
@@ -103,7 +103,7 @@
 		  
 				<!-- nav - start -->
 				<div>
-				  <div class="mb-4 font-bold uppercase tracking-widest text-(--color-bg-0)">Legal</div>
+				  <div class="mb-4 font-bold uppercase tracking-widest text-indigo-500">Legal</div>
 		  
 				  <nav class="flex flex-col gap-4">
 					<div>

@@ -26,7 +26,7 @@
 	}
   </script>
 
-<h1>Contact Us</h1>
+<h1 class="text-indigo-500 font-bold">Contact Us</h1>
 
 <section class="max-w-xl mx-auto">
 	<div class="py-8 lg:py-16">
