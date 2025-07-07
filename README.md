@@ -1,38 +1,51 @@
-# sv
+# Limorinho's Portfolio
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This is my personal portfolio website, designed to showcase selected projects, highlight my skills, and serve as a central hub for my work. Built with SvelteKit and modern web tooling, it emphasizes clean design, responsiveness, and performance.
 
-## Creating a project
+[View the live website](https://limorinho.github.io/Portfolio)
 
-If you're seeing this, you've probably already done this step. Congrats!
+---
+
+## Features
+
+- Fully responsive layout
+- Interactive project carousel
+- Built using SvelteKit and Vite
+- Projects include detailed descriptions and images
+- Fast, lightweight, and optimized for modern browsers
+
+---
+
+## Projects Highlighted
+
+Each entry in the project carousel includes a title, description, and image. Here are some of the featured projects:
+
+More projects will be added as they are completed.
+
+---
+
+## Tech Stack
+
+- **Frontend:** SvelteKit, TypeScript
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS (if applicable)
+- **Version Control:** Git, GitHub
+
+---
+
+## Getting Started
+
+To run the project locally:
 
 ```bash
-# create a new project in the current directory
-npx sv create
+# Clone the repository
+git clone git@github.com:Limorinho/Portfolio.git
 
-# create a new project in my-app
-npx sv create my-app
-```
+# Navigate into the directory
+cd Portfolio
 
-## Developing
+# Install dependencies
+npm install
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
+# Run the development server
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
