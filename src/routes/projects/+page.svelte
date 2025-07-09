@@ -71,7 +71,7 @@
 				</div>
 		  
 				<div class="flex flex-col gap-2 max-w-2xl">
-				  <h1 class="text-center text-3xl font-bold text-gray-800 sm:text-3xl md:mb-6 md:text-left text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">{item.title}</h1>
+				  <h1 class="text-center text-3xl font-bold text-gray-800 sm:text-3xl md:mb-6 md:text-left text-sky-400">{item.title}</h1>
 				  <p class="text-(--color-theme-1)">{item.description}</p>
 				</div>
 			  </div>
