@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/state';
 	import github from '$lib/images/github.svg';
+	import { base } from '$app/paths';
 </script>
 
 <header>

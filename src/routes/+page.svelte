@@ -5,6 +5,7 @@
 	import SMXbot from '$lib/images/SMXbot.png';
 	import NTB from '$lib/images/NTB.png';
 	import { Globe } from 'lucide-svelte';
+	
 
 	const items = [
   {
@@ -61,7 +62,7 @@
 	<title>Home</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
-
+  
 
 
 <div class="py-6 sm:py-8 lg:py-12">
