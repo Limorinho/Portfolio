@@ -5,6 +5,7 @@
 	import SMXbot from '$lib/images/SMXbot.png';
 	import NTB from '$lib/images/NTB.png';
 	import { Globe } from 'lucide-svelte';
+	import { base } from '$app/paths';
 
 	const items = [
   {
@@ -146,7 +147,7 @@
 		  </div>
 
 		  <div class="pt-10">
-		  <a href="/projects"
+		  <a href="{base}/projects"
 		  class="relative inline-flex text-center rounded-full items-center bg-gradient-to-r to-emerald-600 from-sky-400 justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold transition-all duration-150 ease-in-out hover:pl-10 hover:pr-6 hover:bg-indigo-100 group">
 		  
 		  <span class="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
