@@ -108,7 +108,7 @@
 		</div>
 		
 		<div class="hidden md:flex justify-center">
-			<div class="h-full w-[2px] rounded bg-gradient-to-b from-sky-400 to-emerald-600 opacity-60"></div>
+			<div class="h-full w-[1px] rounded bg-gradient-to-b from-sky-400 to-emerald-600 opacity-60"></div>
 		  </div>
 		  
 		<div class="md:pt-4 flex-1">
