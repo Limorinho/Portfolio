@@ -5,7 +5,6 @@
 	import SMXbot from '$lib/images/SMXbot.png';
 	import NTB from '$lib/images/NTB.png';
 	import { Globe } from 'lucide-svelte';
-	
 
 	const items = [
   {
