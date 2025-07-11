@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Header from './Header.svelte';
 	import '../app.css';
+	import { base } from '$app/paths';
 	
 	let { children } = $props();
 </script>
@@ -66,7 +67,7 @@
 		  
 				  <nav class="flex flex-col gap-4">
 					<div>
-					  <a class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Overview</a>
+					  <a href="{base}/projects" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Overview</a>
 					</div>
 				  </nav>
 				</div>
@@ -78,7 +79,7 @@
 		  
 				  <nav class="flex flex-col gap-4">
 					<div>
-					  <a class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">About</a>
+					  <a href="{base}/aboutme" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">About</a>
 					</div>
 		  
 					<div>
@@ -94,7 +95,7 @@
 		  
 				  <nav class="flex flex-col gap-4">
 					<div>
-					  <a class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Contact</a>
+					  <a href="{base}/contact" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Contact</a>
 					</div>
 		  
 				  </nav>
