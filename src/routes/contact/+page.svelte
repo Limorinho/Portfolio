@@ -30,7 +30,7 @@
 
 <section class="max-w-xl mx-auto">
 	<div class="py-8 lg:py-16">
-		<p class="mx-auto text-center text-(--color-theme-1) md:text-lg">Got any questions or requests? go ahead and ask!.</p>
+		<p class="mx-auto text-center text-(--color-theme-1) md:text-lg">Got any questions or requests? go ahead and ask!</p>
 		<form on:submit|preventDefault={submitForm} class="space-y-8 py-16">
 			<div>
 				<label for="email" class="block mb-2 font-bold">Your email</label>
@@ -38,11 +38,11 @@
 			</div>
 			<div>
 				<label for="subject" class="block mb-2 font-bold">Subject</label>
-				<input type="text" bind:value={subject} required id="subject" class="bg-sky-500/30 text-sky-600 border-sky-500 block w-full text-sm bg-gray-50 rounded-lg shadow-sm border focus:ring-primary-500" placeholder="Let me know how I can help">
+				<input type="text" bind:value={subject} required id="subject" class="bg-sky-500/30 text-sky-600 border-sky-500 block w-full text-sm bg-gray-50 rounded-lg shadow-sm border focus:ring-primary-500" placeholder="Subject">
 			</div>
 			<div class="sm:col-span-2">
 				<label for="message" class="block mb-2 font-bold">Your message</label>
-				<textarea id="message" bind:value={message} required rows="6" class="bg-sky-500/30 text-sky-600 border-sky-500 block w-full text-sm bg-gray-50 rounded-lg shadow-sm border focus:ring-primary-500" placeholder="Leave a comment..."></textarea>
+				<textarea id="message" bind:value={message} required rows="6" class="bg-sky-500/30 text-sky-600 border-sky-500 block w-full text-sm bg-gray-50 rounded-lg shadow-sm border focus:ring-primary-500" placeholder="add a message..."></textarea>
 			</div>
 			<div class="flex justify-center">
 			  <button

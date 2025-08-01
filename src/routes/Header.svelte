@@ -1,16 +1,17 @@
 <script lang="ts">
 	import { page } from '$app/state';
 	import github from '$lib/images/github.svg';
+	import l from '$lib/images/l.png';
 	import { base } from '$app/paths';
 	
 </script>
 
 <header>
 	<div class="corner">
-		<a class="m-1 rounded-full border" href="https://svelte.dev/docs/kit">
-			LU
+		<a class="" href="{base}/">
 		</a>
 	</div>
+
 
 	<nav>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
@@ -35,9 +36,8 @@
 		</svg>
 	</nav>
 
-	<div class="corner">
+	<div class="corner hidden sm:flex">
 		<a href="https://github.com/Limorinho">
-			<img src={github} alt="GitHub" />
 		</a>
 	</div>
 </header>
@@ -49,14 +49,15 @@
 	}
 
 	.corner {
-		width: 3em;
-		height: 3em;
+		width: 2.5em;
+		height: 2.5em;
 	}
 
 	.corner a {
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		box-sizing: border-box;
 		width: 100%;
 		height: 100%;
 	}

@@ -2,6 +2,7 @@
 	import Header from './Header.svelte';
 	import '../app.css';
 	import { base } from '$app/paths';
+	import l from '$lib/images/l.png';
 	
 	let { children } = $props();
 </script>
@@ -19,14 +20,12 @@
 				<div class="col-span-full lg:col-span-2">
 				  <!-- logo - start -->
 				  <div class="mb-4 lg:-mt-2">
-					<a href="/" class="inline-flex items-center gap-2 text-xl font-bold md:text-2xl" aria-label="logo">
-					  <svg width="95" height="94" viewBox="0 0 95 94" class="h-auto w-5 text-indigo-500" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-						<path d="M96 0V47L48 94H0V47L48 0H96Z" />
-					  </svg>
-		  
+					<a class="inline-flex items-center gap-2 text-xl font-bold md:text-2xl " href="{base}/" aria-label="logo">
+						<img class="rounded-full border h-15 w-15" src={l} alt="Limorinho" />
 					  Linor Ujkani
 					</a>
 				  </div>
+
 				  <!-- logo - end -->
 		  
 				  <p class="mb-6 sm:pr-8">Portfolio powered by <a href="https://svelte.dev" target="_blank" class="text-emerald-600 hover:underline font-semibold">Svelte</p>
