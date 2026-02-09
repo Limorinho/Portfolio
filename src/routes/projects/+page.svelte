@@ -46,9 +46,9 @@
 </svelte:head>
 
 <div class="text-column">
-	<h1>Projects</h1>
+	<h1 class="text-indigo-500">Projects</h1>
 
-	<div class="py-6 sm:py-8 lg:py-12">
+	<div class="py-6 sm:py-8 lg:py-16">
 		<div class="mx-auto">
 		  <!-- text - start -->
 		  <div class="mb-10 md:mb-16">
@@ -71,7 +71,7 @@
 				</div>
 		  
 				<div class="flex flex-col gap-2 max-w-2xl">
-				  <h1 class="text-center text-3xl font-bold text-gray-800 sm:text-3xl md:mb-6 md:text-left text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">{item.title}</h1>
+				  <h1 class="text-center text-3xl font-bold text-gray-800 sm:text-3xl md:mb-6 md:text-left text-sky-400">{item.title}</h1>
 				  <p class="text-(--color-theme-1)">{item.description}</p>
 				</div>
 			  </div>
